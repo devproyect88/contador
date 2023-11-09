@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Viajes en Van de 15 pasajeros</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>¡Descubre emocionantes viajes en nuestra van para 15 pasajeros!</h1>
+      <!-- Puedes agregar una breve introducción o imagen aquí -->
+      <img src="./Assest/van1.jpg" alt="van" class="van1" />
+    </header>
+
+    <main>
+      <section>
+        <h2>Experimenta la comodidad de viajar en nuestra van</h2>
+        <p>
+          Aquí puedes incluir información sobre los destinos, comodidades y
+          servicios ofrecidos en los viajes en van de 15 pasajeros.
+        </p>
+      </section>
+
+      <section>
+        <h2>Reserva tu viaje</h2>
+        <p>Selecciona la fecha para tu viaje:</p>
+        <input type="date" id="fechaViaje" />
+        <button onclick="validarReserva()">Reservar</button>
+        <p id="mensajeReserva"></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Viajes en van de 15 pasajeros</p>
+    </footer>
+
+    <script src="./agenda.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+.main {
+  width: 100%; /* Puedes ajustar el ancho según tus necesidades */
+  border: 1px solid #000; /* Agrega un borde para visualizar el div */
+  padding: 20px;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  align-content: center;
+}
+
+.counter {
+  font-size: 20px;
+}
+
+.positivo {
+  color: green;
+}
+
+.negativo {
+  color: red;
+}
